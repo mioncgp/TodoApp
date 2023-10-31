@@ -12,6 +12,8 @@ import { useResponsiveDisplay } from "./hooks/useResponsiveDisplay";
 
 function App() {
   // start
+  // we made some changes
+  
   const [user, setUser] = useStorageState<User>(defaultUser, "user");
   const isMobile = useResponsiveDisplay();
   // Initialize user properties if they are undefined
